@@ -5,8 +5,8 @@ export default function Item(){
             <div class="border-solid border-old-lavender border-2 bg-pale-pink mb-3 flex w-full max-w-screen-xl transform cursor-pointer flex-col justify-between p-6 text-old-lavender transition duration-500 ease-in-out hover:-translate-y-1 hover:shadow-lg lg:flex-row lg:p-4">
                 <div class="flex w-full flex-row lg:w-3/12">
                     <div class="relative flex flex-col">
-                        <div class="flex h-12 w-12 flex-shrink-0 flex-col justify-center bg-slate-200">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&w=128&h=128&q=60&facepad=1.5" 
+                        <div class="flex h-12 w-12 flex-shrink-0 flex-col justify-center rounded-full bg-slate-200 bg-opacity-50 dark:bg-slate-600">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0878%2F3986%2Fproducts%2F71F3oQEOF9L._SL1500.jpg%3Fv%3D1565981435&f=1&nofb=1&ipt=a13333874bac76d9077dd410207d825dda1f96ac39f3b7957fc115e598aa56bc&ipo=images" 
                                 class="z-10 h-12 w-12 rounded-full object-cover shadow hover:shadow-xl" 
                                 alt="Rocky Balboa" />
                         </div>
