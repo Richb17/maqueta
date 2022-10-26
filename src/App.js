@@ -1,10 +1,10 @@
 import './App.css';
-import SideBar from './views/SideBar';
+import Inventory from './views/Inventory';
 
 function App() {
   return (
     <div className="App">
-      <SideBar />
+      <Inventory />
     </div>
   );
 }
