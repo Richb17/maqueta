@@ -6,17 +6,14 @@ import ButtonAccept from "../Inventory/Button";
 import Item from "../Inventory/Item"
 
 
-
-
-
-export default function Customers(){
+export default function Notes(){
     return(
         <div class="min-h-screen bg-gray-100">
             <div class = "place-content-start flex flex-rows gap-10">
                 <SideBar />
                 <div class = "h-fit items-start text-old-lavender flex flex-col w-11/12 my-5 ">
                     <div class="flex flex-row ml-12 self-center w-10/12 my-5 ">
-                       <Titulo titulo={"CLIENTE"}/>
+                       <Titulo titulo={"Notas"}/>
                        <Search/>
                     </div>
                     <div class="flex flex-row ml-52 pl-3 mb-5 gap-4 self-start w-4/12">
@@ -25,9 +22,9 @@ export default function Customers(){
                         <ButtonAccept/>
                     </div>
                     <div class = "self-center flex flex-col my-5 w-9/12">
-                        <Item Nombre={"Cliente 1"} cantidad={"saldo $0.00"} precio={"Numero de contacto: 4441234569"} inventario={true}/>
-                        <Item Nombre={"Cliente 1"} cantidad={"saldo $0.00"} precio={"Numero de contacto: 4441234569"} inventario={true}/>
-                        <Item Nombre={"Cliente 1"} cantidad={"saldo $0.00"} precio={"Numero de contacto: 4441234569"} inventario={true}/>
+                        <Item Nombre={"Cliente 1"} cantidad={"Cantidad por pagar"} precio={"Contenido nota"} inventario={true}/>
+                        <Item Nombre={"Cliente 1"} cantidad={"Cantidad por pagar"} precio={"Contenido nota"} inventario={true}/>
+                        <Item Nombre={"Cliente 1"} cantidad={"Cantidad por pagar"} precio={"Contenido nota"} inventario={true}/>
                     </div>
 
                 </div>
