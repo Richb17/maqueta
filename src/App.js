@@ -4,6 +4,7 @@ import Customers from './views/Customers';
 import Notes from './views/Note';
 import LineCategoty from './views/LineCategory';
 import CreateEditNotes from './views/CreateEditNotes.js';
+import AddProducts from './views/AddProducts';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Notes/>
   <LineCategoty/>
       <CreateEditNotes/>
+      <AddProducts/>
     </div>
   );
 }

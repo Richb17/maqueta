@@ -21,6 +21,9 @@ export default function Item({Nombre, imagen, cantidad,precio, linea, pantalla, 
         case "Crear/ Editar Nota":
             botones = [<InputQuantity2/>, <Delete/>]
         break;
+        case "Añadir Producto":
+            botones = [<Show/>, <InputQuantity2/>]
+        break;
     }
     let arr = [<Imagen/>]
     switch(imagens){
