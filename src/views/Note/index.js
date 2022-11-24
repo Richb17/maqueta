@@ -19,12 +19,12 @@ export default function Notes(){
                     <div class="flex flex-row ml-52 pl-3 mb-5 gap-4 self-start w-4/12">
                         <Filters/>
                         <Sort/>
-                        <ButtonAccept/>
+                        <ButtonAccept texto={"Nueva Nota"}/>
                     </div>
                     <div class = "self-center flex flex-col my-5 w-9/12">
-                        <Item Nombre={"Cliente 1"} cantidad={"Cantidad por pagar"} precio={"Contenido nota"} inventario={true}/>
-                        <Item Nombre={"Cliente 1"} cantidad={"Cantidad por pagar"} precio={"Contenido nota"} inventario={true}/>
-                        <Item Nombre={"Cliente 1"} cantidad={"Cantidad por pagar"} precio={"Contenido nota"} inventario={true}/>
+                        <Item imagens={"Notas"} Nombre={"Cliente 1"} cantidad={"Cantidad por pagar"} precio={"Contenido nota"} pantalla={"Notas"}/>
+                        <Item imagens={"Notas"} Nombre={"Cliente 1"} cantidad={"Cantidad por pagar"} precio={"Contenido nota"} pantalla={"Notas"}/>
+                        <Item imagens={"Notas"} Nombre={"Cliente 1"} cantidad={"Cantidad por pagar"} precio={"Contenido nota"} pantalla={"Notas"}/>
                     </div>
 
                 </div>
