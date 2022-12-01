@@ -14,3 +14,8 @@ export function InputQuantity(){
     return(<input class="border-2 border-old-lavender text-old-lavender text-sm  
     focus:ring-old-lavender focus:border-old-lavender block w-44 p-2.5" type="number" placeholder="Cantidad"/>)
 }
+
+export function InputQuantity2(){
+    return(<input class="border-2 border-old-lavender text-old-lavender text-sm  
+    focus:ring-old-lavender focus:border-old-lavender block w-16 p-2" type="number" placeholder="0"/>)
+}

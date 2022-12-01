@@ -12,7 +12,7 @@ export default function Filters(){
 export function Sort(){
     return(
         <select id="order" class="bg-gray-50 border-2 border-old-lavender text-old-lavender text-sm  focus:ring-old-lavender focus:border-old-lavender block w-full p-2.5">
-            <option selected>Ordenar Por...</option>
+            <option selected>A-Z</option>
             <option value="1">Orden 1</option>
             <option value="2">Orden 2</option>
             <option value="3">Orden 3 </option>
